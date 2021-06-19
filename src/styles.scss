@@ -1,0 +1,65 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+html {
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: 0.3rem;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+    margin: 1px;
+  }
+  button:hover {
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  }
+  button:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+  }
+
+  .car-item {
+    width: 100%;
+    border-bottom: white dashed;
+    background: url('./assets/finish.svg') no-repeat;
+    background-position: 87%;
+    background-size: 3%;
+  }
+
+  .car-engine button {
+    width: 20px;
+    height: 20px;
+    color: green;
+    background-color: black;
+    border: 1px solid green;
+    border-radius: 20%;
+    text-align: center;
+  }
+
+  .animated {
+    animation: move 0.5s ease;
+  }
+
